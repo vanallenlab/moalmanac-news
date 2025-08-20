@@ -1,0 +1,9 @@
+---
+layout: base
+---
+{%- assign category_label = page.category -%}
+
+<h1>Posts in “{{ category }}”</h1>
+
+{% assign filtered = site.posts | where_exp: "p", "p.categories contains category" %}
+{% include post-list.html posts=filtered %}

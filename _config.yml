@@ -13,6 +13,11 @@ minima:
 header_pages:
   - about.md
 
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
 defaults:
   - scope:
       path: ""
