@@ -15,4 +15,3 @@ Additions:
 Revisions:
 - MOAlmanac no longer runs deconstructSigs as a subprocess and, as a result, R dependencies have been removed. 
 - The annotation to the MOAlmanac database was updated to sort by the evidence type, publication date of the source, and then when the database record was last updated.
-
