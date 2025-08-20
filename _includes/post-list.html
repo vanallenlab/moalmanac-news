@@ -1,10 +1,11 @@
-{% if posts.size > 0 %}
+{% assign items = include.posts | default: site.posts %}
+{% if items and items.size > 0 %}
     {% if page.title %}
         <h2 class="post-list-heading">{{ page.title }}</h2>
     {% endif %}
     <ul class="post-list">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {% for post in posts %}
+        {% for post in items %}
         <li>
         <span>
             <a class="post-link" href="{{ post.url | relative_url }}">

@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2025-06-25
 title: Algorithm release 0.8.2
+github_url: https://github.com/vanallenlab/moalmanac/releases/tag/0.8.2
 ---
 This release utilizes the [v.2025-02-07](https://github.com/vanallenlab/moalmanac-db/releases) release of the underlying MOAlmanac database. The codebase now supports Python 3.13 with no warnings produced, although we will continue officially using 3.12 for the time being.
 
