@@ -1,7 +1,6 @@
 ---
 layout: base
 ---
-
 <div class="home">
   {% if page.title %}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -69,10 +68,13 @@ layout: base
         {%- assign stop  = current | plus: window  | at_most: total -%}
 
         {%- if start > 1 -%}
-          <a href="{{ '/' | relative_url }}">1</a>
-          &nbsp;
-          {%- if start > 2 -%}…{% endif -%}
-          &nbsp;
+          &nbsp;<a href="{{ '/' | relative_url }}">1</a>
+          {%- if start > 2 -%}
+            &nbsp;&nbsp;...&nbsp;
+          {%- else -%}
+            <!-- This will only activate when start == 2 -->
+            &nbsp;
+          {%- endif -%}
         {%- endif -%}
 
         {%- for n in (start..stop) -%}
@@ -92,10 +94,10 @@ layout: base
 
         {%- if stop < total -%}
           {%- assign last = total | minus: 1 -%}
-          {%- if stop < last -%} … {% endif -%}
-          &nbsp;
-          <a href="{{ pathpat | replace: ':num', total | relative_url }}">{{ total }}</a>
-          &nbsp;
+          {%- if stop < last -%}
+          ...
+          {% endif -%}
+          &nbsp;<a href="{{ pathpat | replace: ':num', total | relative_url }}">{{ total }}</a>&nbsp;&nbsp;
         {%- endif -%}
 
         {%- if paginator.next_page %}
