@@ -1,9 +1,7 @@
-# theme: minima
-# theme-repo: https://github.com/jekyll/minima/tree/master
-
 title: Molecular Oncology Almanac
 
 theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
