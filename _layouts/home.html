@@ -51,62 +51,7 @@ layout: base
     </ul>
 
     {% if site.paginate %}
-      <div class="pagination">
-        {%- if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path | relative_url }}">Previous</a>
-        {% else %}
-          <span>Previous</span>
-        {% endif %}
-        &nbsp;
-
-        {%- assign total   = paginator.total_pages -%}
-        {%- assign current = paginator.page -%}
-        {%- assign window  = 2 -%}
-        {%- assign pathpat = site.paginate_path | default: '/page:num' -%}
-
-        {%- assign start = current | minus: window | at_least: 1 -%}
-        {%- assign stop  = current | plus: window  | at_most: total -%}
-
-        {%- if start > 1 -%}
-          &nbsp;<a href="{{ '/' | relative_url }}">1</a>
-          {%- if start > 2 -%}
-            &nbsp;&nbsp;...&nbsp;
-          {%- else -%}
-            <!-- This will only activate when start == 2 -->
-            &nbsp;
-          {%- endif -%}
-        {%- endif -%}
-
-        {%- for n in (start..stop) -%}
-          {%- if n == 1 -%}
-            {%- assign url = '/' -%}
-          {%- else -%}
-            {%- assign url = pathpat | replace: ':num', n -%}
-          {%- endif -%}
-          {% if n == current %}
-            <strong>{{ n }}</strong>
-          {% else %}
-            <a href="{{ url | relative_url }}">{{ n }}</a>
-          {% endif %}
-          &nbsp;
-        {%- endfor -%}
-
-
-        {%- if stop < total -%}
-          {%- assign last = total | minus: 1 -%}
-          {%- if stop < last -%}
-          ...
-          {% endif -%}
-          &nbsp;<a href="{{ pathpat | replace: ':num', total | relative_url }}">{{ total }}</a>&nbsp;&nbsp;
-        {%- endif -%}
-
-        {%- if paginator.next_page %}
-          <a href="{{ paginator.next_page_path | relative_url }}">Next</a>
-        {% else %}
-          <span>Next</span>
-        {% endif %}
-
-      </div>
+      {% include pagination.html paginator=paginator paginate_path=site.paginate_path %}
     {% endif %}
 
   {% endif %}
