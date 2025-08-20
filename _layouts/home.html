@@ -34,17 +34,19 @@ layout: base
         </span>
         <span>
           {% if post.categories and post.categories.size > 0 %}
-            <span class="post-categories">
+            <span class="post-meta post-categories">
+              Categories:&nbsp;
               {% for category in post.categories %}
                 <a class="post-category" href="{{ category | slugify: 'pretty' | append: '/' | relative_url }}">
-                  {{ category }}
-                </a>
+                  {{- category -}}
+                </a>{% unless forloop.last %},{% endunless %}
               {% endfor %}
             </span>
           {% endif %}
         </span>
         {% if site.show_excerpts %}
           {{ post.excerpt }}
+          <a href="{{ post.url | relative_url }}">Continue reading</a>
         {% endif %}
       </li>
       {% endfor %}
