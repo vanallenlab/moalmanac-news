@@ -1,0 +1,29 @@
+# theme: minima
+# theme-repo: https://github.com/jekyll/minima/tree/master
+
+title: Molecular Oncology Almanac
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+minima:
+  date_format: "%Y-%m-%d"
+
+header_pages:
+  - about.md
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      published: true
+
+show_excerpts: true
+
+paginate: 10
+paginate_path: "/page:num"

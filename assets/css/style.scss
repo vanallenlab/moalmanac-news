@@ -1,0 +1,84 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+:root {
+    --primary-color: #00629B; /* Dana-Farber Blue - for navbar, titles, logo, and hyperlinks */
+    --secondary-color: #FFA300; /* Dana-Farber Orange - for navbar hover, subtitles  */
+    --tertiary-color: #41B6E6; /* Dana-Farber Light Blue - for h4 */
+}
+
+body {
+	background-color: #ffffff;
+}
+
+/* ====================
+   Header
+   ==================== */
+.site-header {
+	background-color: var(--primary-color);
+	align-items: stretch;
+  display: flex;
+  height: 56px;
+  padding: 0px;
+}
+
+.site-header .wrapper {
+  align-items: stretch;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  width: 100%
+}
+
+.site-title {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  padding: 0 1rem;
+  margin: 0;
+}
+
+/* Nav links behave like .navbar-nav */
+.site-nav {
+  display: flex;
+  align-items: center;
+  margin: 0;                 /* remove default list margins */
+  padding: 0;
+  list-style: none;          /* clean bullets */
+}
+
+.site-nav li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.site-header a,
+.site-nav a
+.site-title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hover states (same as bootstrap’s nav-link hover) */
+.site-header a:hover,
+.site-nav a:hover,
+.site-title a:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  text-decoration: none;
+}
+
+/* ====================
+   Table of contents
+   ==================== */
+.post-categories { 
+  margin-left: .5rem;
+}
+.post-category { 
+  text-decoration: none;
+  margin-left: .1;
+  margin-right: .1rem; 
+}
