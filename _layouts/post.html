@@ -28,7 +28,8 @@ layout: base
         <span class="post-categories">
           Categories:&nbsp;
           {% for category in page.categories %}
-            <a class="post-category" href="{{ category | slugify: 'pretty' | append: '/' | relative_url }}">
+          {% assign category_slug = category | slugify: 'pretty' %}
+            <a class="post-category" href="{{ '/category/' | append: category_slug | relative_url }}">
               {{- category -}}
             </a>{% unless forloop.last %},{% endunless %}
           {% endfor %}

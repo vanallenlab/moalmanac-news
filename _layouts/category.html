@@ -2,6 +2,7 @@
 layout: base
 ---
 {%- assign category = page.category -%}
+<h1>Posts categorized as “{{ category }}”</h1>
 
 {% assign filtered = site.posts | where_exp: "p", "p.categories contains category" %}
 {% include post-list.html posts=filtered %}
