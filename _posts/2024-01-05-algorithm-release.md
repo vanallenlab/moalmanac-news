@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2024-01-05
 title: Algorithm release 0.5.0
+github_url: https://github.com/vanallenlab/moalmanac/releases/tag/0.5.0
 ---
 This release utilizes the [v.2023-11-09](https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-11-09) release of the underlying MOAlmanac database and incorporates changes from three pull requests: [#15: Added AIP to hereditary cancers gene list](https://github.com/vanallenlab/moalmanac/pull/15), [#16: Update db nov 2023](https://github.com/vanallenlab/moalmanac/pull/16), and [#17: Revise handling of COSMIC mutational signatures](https://github.com/vanallenlab/moalmanac/pull/17). 
 

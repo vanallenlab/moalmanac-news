@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2023-11-09
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-11-09
 ---
 This month's data release features recent FDA approvals, updates of mutational signatures from version 2 to 3.4, updates to the source fields for several citations, removal of several entries, revising format of all clinical guideline citations, and the `publication_date` field has been populated for all current database records. 
 

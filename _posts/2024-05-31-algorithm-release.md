@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2024-05-31
 title: Algorithm release 0.6.0
+github_url: https://github.com/vanallenlab/moalmanac/releases/tag/0.6.0
 ---
 This release utilizes the [v.2024-04-11](https://github.com/vanallenlab/moalmanac-db/releases) release of the underlying MOAlmanac database and primarily focuses on supporting Python 3.12. It incorporates changes from two pull requests: https://github.com/vanallenlab/moalmanac/pull/18 and https://github.com/vanallenlab/moalmanac/pull/19. 
 

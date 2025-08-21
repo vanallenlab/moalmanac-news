@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2024-06-06
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-06-06
 ---
 Added entries:
 - (FDA) _ALK_ fusions and sensitivity to alectinib for patients with non-small cell lung cancer.

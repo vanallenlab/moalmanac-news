@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2024-12-10
 title: Algorithm release 0.8.0
+github_url: https://github.com/vanallenlab/moalmanac/releases/tag/0.8.0
 ---
 This release utilizes the [v.2024-12-05 version of the underlying database](https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-12-05) and contains changes from several pull requests: [#27](https://github.com/vanallenlab/moalmanac/pull/27), [#28](https://github.com/vanallenlab/moalmanac/pull/28), [#29](https://github.com/vanallenlab/moalmanac/pull/29), [#30](https://github.com/vanallenlab/moalmanac/pull/30), [#31](https://github.com/vanallenlab/moalmanac/pull/31). 
 

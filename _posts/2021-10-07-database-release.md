@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2021-10-07
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-10-07
 ---
 Added entries:
 - (FDA) EGFR exon 20 insertion variants and sensitivity to mobocertinib in non-small cell lung cancer.

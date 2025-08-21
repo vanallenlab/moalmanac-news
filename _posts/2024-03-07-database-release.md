@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2024-03-07
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-03-07
 ---
 Added entries:
 - (FDA) _ALK_ fusions and sensitivity to crizotinib for patients with anaplastic large cell lymphoma.

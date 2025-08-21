@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2023-02-02
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-02-02
 ---
 In this release, we add two recent precision oncology approvals from the FDA regarding ER signaling inhibition in two cancer types.
 

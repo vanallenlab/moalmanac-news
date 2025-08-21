@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2023-03-10
 title: Algorithm release 0.4.5
+github_url: https://github.com/vanallenlab/moalmanac/releases/tag/0.4.5
 ---
 This release utilizes the [v.2023-02-02](https://github.com/vanallenlab/moalmanac-db/releases) release of the underlying MOAlmanac database. It incorporates changes from three pull requests: [changing the underlying MOAlmanac database from TinyDB to JSON (#9)](https://github.com/vanallenlab/moalmanac/pull/9), [adding a simplified input option to run MOAlmanac (#10)](https://github.com/vanallenlab/moalmanac/pull/10), and [updating datasources (#11)](https://github.com/vanallenlab/moalmanac/pull/11). 
 

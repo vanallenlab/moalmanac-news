@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2023-10-05
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-10-05
 ---
 Added entries:
 - (Preclinical) _ATM_ copy number deletions and sensitivity to talazoparib in osteosarcoma.

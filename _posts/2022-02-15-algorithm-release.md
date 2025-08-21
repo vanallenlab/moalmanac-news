@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2022-02-15
 title: Algorithm release 0.4.2
+github_url: https://github.com/vanallenlab/moalmanac/releases/tag/0.4.2
 ---
 This release utilizes the [v.2021-02-04](https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-02-04) release of the underlying MOAlmanac database. 
 

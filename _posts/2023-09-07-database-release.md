@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2023-09-07
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-09-07
 ---
 Added entries:
 - (FDA) _BRCA1_ somatic and germline variants and sensitivity to abiraterone acetate in combination with niraparib for patients with metastatic castration-resistant prostate cancer.

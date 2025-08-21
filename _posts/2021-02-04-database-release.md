@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2021-02-04
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-02-04
 ---
 In addition to the content changes listed below, this release added a therapeutic strategy (`therapy_strategy`) for all sensitive and resistance relationships. 
 

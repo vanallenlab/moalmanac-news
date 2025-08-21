@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2022-08-04
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2022-08-04
 ---
 Added entries:
 - (FDA) _ALK-EML4_ and sensitivity to crizotinib in inflammatory myofibroblastic tumors.

@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2024-12-05
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-12-05
 ---
 This release contains 1,001 approved relationships.
 

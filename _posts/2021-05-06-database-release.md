@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2021-05-06
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-05-06
 ---
 The following changes were made to the Molecular Oncology Almanac in this release - 
 

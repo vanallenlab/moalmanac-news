@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2023-07-06
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-07-07
 ---
 Added entries:
 - (FDA) _BRCA1_ and _BRCA2_ somatic and germline variants and sensitivity to olaparib in combination with abiraterone and prednisone or prednisolone for patients with metastatic castration-resistant prostate cancer. 

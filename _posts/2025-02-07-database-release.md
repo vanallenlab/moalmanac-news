@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2025-02-07
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-02-07
 ---
 Added entries:
 - (FDA) [_ALK_ rearrangements and sensitivity to ensartinib for the treatment of adult patients with non-small cell lung cancer](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-ensartinib-alk-positive-locally-advanced-or-metastatic-non-small-cell-lung-cancer).

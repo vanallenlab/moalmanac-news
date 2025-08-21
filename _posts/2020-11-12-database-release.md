@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2020-11-12
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2020-11-12
 ---
 This release focuses on FDA approvals since March 2020. In addition to the following changes, the citation style for all FDA approved associated have been updated to match [American Medical Association (AMA) style formatting](https://mdanderson.libanswers.com/faq/26246).
 

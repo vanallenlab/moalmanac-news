@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2022-10-06
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2022-10-06
 ---
 Added entries:
 - (FDA) _FGFR2_ rearrangements and sensitivity to futibatinib in intrahepatic cholangiocarcinoma.

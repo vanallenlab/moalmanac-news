@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2024-04-11
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-04-11
 ---
 Added entries:
 - (FDA) ABL1 p.T315I and sensitivity to ponatinib for patients with acute lymphoid leukemia.

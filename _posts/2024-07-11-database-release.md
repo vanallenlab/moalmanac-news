@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2024-07-11
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-07-11
 ---
 Added entries:
 - (FDA) _KRAS_ p.G12C and sensitivity to adagrasib in combination with cetuximab for patients with colorectal cancer received accelerated approval. 

@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2024-10-25
 title: Algorithm release 0.7.2
+github_url: https://github.com/vanallenlab/moalmanac/releases/tag/0.7.2
 ---
 This release utilizes the [v.2024-10-03](https://github.com/vanallenlab/moalmanac-db/releases) release of the underlying [MOAlmanac database](https://moalmanac.org/) and otherwise fixes two bugs present in Release 0.7.1. This release incorporates pull requests https://github.com/vanallenlab/moalmanac/pull/23 and https://github.com/vanallenlab/moalmanac/pull/24. 
 

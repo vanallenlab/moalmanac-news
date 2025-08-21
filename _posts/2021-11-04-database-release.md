@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2021-11-04
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-11-04
 ---
  Added entries:
 - (FDA) _BCR-ABL1_ and sensitivity to asciminib in chronic phase chronic myeloid leukemia. 

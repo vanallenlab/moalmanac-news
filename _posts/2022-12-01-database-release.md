@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2022-12-01
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2022-12-01
 ---
 In this release, we have removed neoantigen burden as a cataloged feature type and combined Silencing with Knockdown feature types. We additionally expanded upon fields required for each feature type within our S.O.P.
 

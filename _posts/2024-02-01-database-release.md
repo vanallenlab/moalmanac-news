@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2024-02-01
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-02-01
 ---
 Added entries:
 - (FDA) _BRAF_ p.V600E/K and sensitivity to vemurafenib for patients with Erdheim-Chester disease. 

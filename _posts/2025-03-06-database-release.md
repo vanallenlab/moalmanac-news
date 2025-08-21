@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2025-03-06
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-03-06
 ---
 In this release, we have normalized `therapy_name` values to [NCI thesaurus](https://evsexplore.semantics.cancer.gov/evsexplore/welcome) ([#40](https://github.com/vanallenlab/moalmanac-db/pull/40)) and merged an initial version of the next version of our database ([#36](https://github.com/vanallenlab/moalmanac-db/pull/36)), that aims to follow with [GA4GH's Genomic Knowledge Standards](https://www.ga4gh.org/work_stream/genomic-knowledge-standards/) for the database schema ([Read more here](https://github.com/vanallenlab/moalmanac-db/blob/main/docs/referenced-schema-draft-about.md)). 
 

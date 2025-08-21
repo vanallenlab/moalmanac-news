@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2023-12-07
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2023-12-07
 ---
 Added entries:
 - (FDA) _PIK3CA_ and _AKT_ somatic variants and _PTEN_ loss of function variants and sensitivity to capivasertib in combination with fulvestrant for patients with breast cancer.

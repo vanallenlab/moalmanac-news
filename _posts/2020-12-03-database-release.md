@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2020-12-03
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2020-12-03
 ---
 Added entries:
 - (FDA) _RET_ somatic variants associated with sensitivity to pralsetinib in advanced or metastatic medullary thyroid cancer. 

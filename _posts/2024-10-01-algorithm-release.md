@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2024-10-01
 title: Algorithm release 0.7.1
+github_url: https://github.com/vanallenlab/moalmanac/releases/tag/0.7.1
 ---
 This release utilizes the [v.2024-04-11](https://github.com/vanallenlab/moalmanac-db/releases) release of the underlying MOAlmanac database and primarily focuses on adding logging to MOAlmanac and refactoring the codebase to remove the `datasources/` directory from the application folder. It incorporates changes from two pull requests: https://github.com/vanallenlab/moalmanac/pull/21 and https://github.com/vanallenlab/moalmanac/pull/22.
 

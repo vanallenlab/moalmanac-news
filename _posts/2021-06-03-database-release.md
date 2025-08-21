@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2021-06-03
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-06-03
 ---
 The following recent FDA approvals were added to the Molecular Oncology Almanac in this release -
 

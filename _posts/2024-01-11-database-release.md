@@ -4,6 +4,7 @@ categories:
 - Release
 date: 2024-01-11
 title: Database release
+github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2024-01-11
 ---
 Added entries:
 - (FDA) _ERBB2_ amplification and sensitivity to neratinib in combination with capecitabine for patients with breast cancer.
