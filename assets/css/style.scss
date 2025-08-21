@@ -29,6 +29,21 @@ body {
 }
 
 /* ====================
+   2. Typography
+   ==================== */
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.tertiary-color {
+    color: var(--tertiary-color);
+}
+
+/* ====================
    Header
    ==================== */
 .site-header {
@@ -155,4 +170,22 @@ body {
   text-decoration: none;
   margin-left: .1rem;
   margin-right: .1rem; 
+}
+
+/* ====================
+   Hyperlinks
+   ==================== */
+
+a,
+a.post-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a.post-link:hover,
+a.post-link:focus {
+    color: var(--primary-color);
+    text-decoration: underline;
 }

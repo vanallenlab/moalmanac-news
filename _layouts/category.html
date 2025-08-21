@@ -2,7 +2,10 @@
 layout: base
 ---
 {%- assign category = page.category -%}
-<h1>Posts categorized as “{{ category }}”</h1>
+{% if page.heading %}
+    <h1 class="primary-color">{{ page.heading }}</h1>
+{% endif %}
+<h2>Posts categorized as "<span class="secondary-color">{{ category }}</span>"</h2>
 
 {% assign filtered = site.posts | where_exp: "p", "p.categories contains category" %}
 {% include post-list.html posts=filtered %}
