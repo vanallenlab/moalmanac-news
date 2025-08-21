@@ -7,9 +7,9 @@
 
       <ul class="nav-right">
         {% for item in site.nav_right %}
-          {% if item.url contains '://' %}
+          {% if item.url contains 'https://' %}
             <li class="nav-item">
-                <a class="nav-link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
+                <a class="nav-link" href="{{ item.url }}" rel="noopener noreferrer">{{ item.title }}</a>
             </li>
           {% else %}
             <li class="nav-item">
