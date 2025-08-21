@@ -1,4 +1,5 @@
 #!/bin/bash
-PORT=$1
+DEFAULT_PORT=4000
+PORT="${1:-$DEFAULT_PORT}"
 
 lsof -nP -iTCP:"$PORT" -sTCP:LISTEN
