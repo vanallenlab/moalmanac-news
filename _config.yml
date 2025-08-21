@@ -7,16 +7,9 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
-minima:
-  date_format: "%Y-%m-%d"
+sass:
+  quiet_deps: true
 
-nav_right:
-  - title: About
-    url: https://moalmanac.org/about
-  - title: Contact
-    url: https://dev.moalmanac.org
-  - title: News
-    url: /
 
 collections:
   pages:
@@ -30,6 +23,17 @@ defaults:
     values:
       layout: post
       published: true
+
+minima:
+  date_format: "%Y-%m-%d"
+
+nav_right:
+  - title: About
+    url: https://moalmanac.org/about
+  - title: Contact
+    url: https://dev.moalmanac.org
+  - title: News
+    url: /
 
 show_excerpts: true
 
