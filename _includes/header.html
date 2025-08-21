@@ -1,0 +1,23 @@
+<header class="site-header">
+  <div class="wrapper">
+    <nav class="site-navbar" aria-label="Primary">
+      <div class="site-title">
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      </div>
+
+      <ul class="nav-right">
+        {% for item in site.nav_right %}
+          {% if item.url contains '://' %}
+            <li class="nav-item">
+                <a class="nav-link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
+            </li>
+          {% else %}
+            <li class="nav-item">
+                <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -10,8 +10,13 @@ plugins:
 minima:
   date_format: "%Y-%m-%d"
 
-header_pages:
-  - about.md
+nav_right:
+  - title: About
+    url: https://moalmanac.org/about
+  - title: Contact
+    url: https://dev.moalmanac.org
+  - title: News
+    url: /
 
 collections:
   pages:
