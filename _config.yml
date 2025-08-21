@@ -1,5 +1,13 @@
+# ===============================
+# Site metadata
+# ===============================
 title: Molecular Oncology Almanac
+url: https://news.moalmanac.org
+github_url: https://github.com/vanallenlab/moalmanac-news
 
+# ===============================
+# Theme & Plugins
+# ===============================
 theme: minima
 
 plugins:
@@ -7,10 +15,27 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
-sass:
-  quiet_deps: true
+# ===============================
+# Theme-specific options
+# ===============================
+minima:
+  date_format: "%Y-%m-%d"
 
+# ===============================
+# Navigation (right side of header)
+# Access in templates via `site.nav_right`
+# ===============================
+nav_right:
+  - title: About
+    url: https://moalmanac.org/about
+  - title: Contact
+    url: https://dev.moalmanac.org
+  - title: News
+    url: /
 
+# ===============================
+# Content & Collections
+# ===============================
 collections:
   pages:
     output: true
@@ -24,18 +49,39 @@ defaults:
       layout: post
       published: true
 
-minima:
-  date_format: "%Y-%m-%d"
-
-nav_right:
-  - title: About
-    url: https://moalmanac.org/about
-  - title: Contact
-    url: https://dev.moalmanac.org
-  - title: News
-    url: /
-
+# ===============================
+# Writing & Rendering
+# ===============================
 show_excerpts: true
 
+# ===============================
+# Pagination
+# ===============================
 paginate: 5
 paginate_path: "/page:num"
+
+# ===============================
+# Sass / SCSS
+# ===============================
+sass:
+  quiet_deps: true
+
+# ===============================
+# Include / Exclude (build hygiene)
+# ===============================
+exclude:
+  - utils/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .bundle/
+  - .idea/
+  - .jekyll-cache/
+  - .gitignore
+
+# ===============================
+# Server (local dev)
+# ===============================
+host: 127.0.0.1
+port: 4000
+livereload: true

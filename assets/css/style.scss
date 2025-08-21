@@ -1,8 +1,6 @@
 ---
 ---
-@use "minima" as *;
-/* @import "{{ site.theme }}";
-*/
+@import "{{ site.theme }}";
 
 :root {
     --primary-color: #00629B; /* Dana-Farber Blue - for navbar, titles, logo, and hyperlinks */
