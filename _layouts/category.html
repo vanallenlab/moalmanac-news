@@ -5,7 +5,9 @@ layout: base
 {% if page.heading %}
     <h1 class="primary-color">{{ page.heading }}</h1>
 {% endif %}
-<h2>Posts in category "<span class="secondary-color">{{ category }}</span>"</h2>
+<h1>Posts in category "<span class="secondary-color">{{ category }}</span>"</h1>
+
+{% include overview.html %}
 
 {% assign filtered = site.posts | where_exp: "p", "p.categories contains category" %}
 {% include post-list.html posts=filtered %}
