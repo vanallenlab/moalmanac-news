@@ -37,5 +37,7 @@ Posts in [_posts/](_posts/) use [Front Matter](https://jekyllrb.com/docs/front-m
 - [Database](https://news.moalmanac.org/category/database) - Any post related to the underlying database (GitHub: [vanallenlab/moalmanac-db](https://github.com/vanallenlab/moalmanac-db)). 
 - [Release](https://news.moalmanac.org/category/release) - Repository releases
 
+Each category should have a page under [_pages/](_pages/) and be included in [_includes/overview.html](_includes/overview.html) to show up on the website.
+
 # License
 This repository is distributed under the [GNU GENERAL PUBLIC LICENSE Version 2](./LICENSE).
