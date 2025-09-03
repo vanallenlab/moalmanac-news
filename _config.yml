@@ -27,7 +27,7 @@ minima:
 # ===============================
 nav_right:
   - title: About
-    url: https://moalmanac.org/about
+    url: https://dev.moalmanac.org/about
   - title: Contact
     url: https://dev.moalmanac.org
   - title: News
