@@ -6,6 +6,8 @@ url: https://news.moalmanac.org
 home_url: https://dev.moalmanac.org
 github_url: https://github.com/vanallenlab/moalmanac-news
 
+permalink: /:year-:month-:day-:title:output_ext
+
 # ===============================
 # Theme & Plugins
 # ===============================
