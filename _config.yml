@@ -3,6 +3,7 @@
 # ===============================
 title: Molecular Oncology Almanac
 url: https://news.moalmanac.org
+home_url: https://dev.moalmanac.org
 github_url: https://github.com/vanallenlab/moalmanac-news
 
 # ===============================
@@ -25,7 +26,7 @@ minima:
 # Navigation (right side of header)
 # Access in templates via `site.nav_right`
 # ===============================
-nav_right:
+header_external_links:
   - title: About
     url: https://dev.moalmanac.org/about
   - title: Contact
