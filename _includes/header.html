@@ -5,7 +5,7 @@
     {%- assign page_paths = site.header_external_links | default: default_paths -%}
     
     {% if site.home_url contains 'https://' %}
-      <a class="site-title" rel="noopener noreferrer" href="{{ site.home_url }}">{{ site.title | escape }}</a>
+      <a class="site-title" rel="noopener" href="{{ site.home_url }}">{{ site.title | escape }}</a>
     {% else %}
       <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     {% endif %}
@@ -24,7 +24,7 @@
         <div class="trigger">
           {% for link in site.header_external_links %}
             {% if item.url contains 'https://' %}
-              <a class="page-link" href="{{ link.url }}" rel="noopener noreferrer">{{ link.title | escape }}</a>
+              <a class="page-link" href="{{ link.url }}" rel="noopener">{{ link.title | escape }}</a>
             {% else %}
               <a class="page-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a>
             {% endif %}
