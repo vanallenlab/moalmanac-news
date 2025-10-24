@@ -8,7 +8,7 @@ github_url: https://github.com/vanallenlab/moalmanac/releases/tag/0.8.5
 ---
 This release utilizes the [v.2025-02-07](https://github.com/vanallenlab/moalmanac-db/releases) version of the MOAlmanac database. Cancer Gene Census is also no longer required to run moalmanac. The interpreter version was increased to 0.8.5.
 
-The repository history was also cleaned to remove COSMIC and Cancer Gene Census datasources. Users may need to refresh repository history by either recloning the repository or getting the current history. The following code should work, though we recommend creating a back up first.
+The repository history was also cleaned to remove COSMIC and Cancer Gene Census datasources. Users may need to refresh repository history by either recloning the repository or getting the current history. The following code should work instead of pulling the latest main branch, though we recommend creating a back up first.
 ```
 git fetch --all --prune --prune-tags
 git checkout main
