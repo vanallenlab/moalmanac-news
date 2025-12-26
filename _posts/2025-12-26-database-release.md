@@ -6,7 +6,7 @@ date: 2025-12-26
 title: Database release
 github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-12-26
 ---
-This release contains updates to the current and draft versions of the database with FDA  precision oncology approvals from October, November, and December 2025. 
+This release contains updates to the current and draft versions of the database with FDA precision oncology approvals from October, November, and December 2025. 
 
 ## Database content updates
 Added entries:
