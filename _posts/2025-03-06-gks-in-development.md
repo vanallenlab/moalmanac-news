@@ -50,6 +50,6 @@ VA-Spec supports a wide array of [proposition types](https://va-ga4gh.readthedoc
 
 Specific extensions and mappings will be explained within their relevant data type. 
 
-We also want to give a special thank you to Daniel Puthawala and Kori Kuzama from the Wagner lab for their help and patience as we've badgered them with questions to understand the GKS ecosystem. Their expertise and the [Wagner Lab's normalizers](https://gk-pilot.readthedocs.io/en/stable/tools.html) are excellent. 
-
 More on this update to come!
+
+We also want to give a special thank you to Daniel Puthawala and Kori Kuzama from the Wagner lab for their help and patience as we've badgered them with questions to understand the GKS ecosystem. Their expertise and the [Wagner Lab's normalizers](https://gk-pilot.readthedocs.io/en/stable/tools.html) are excellent. 
