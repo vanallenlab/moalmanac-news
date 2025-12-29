@@ -18,37 +18,7 @@ About a year ago in January 2024, we began curating knowledge for European preci
 We are using a relational schema that can be dereferenced to a single JSON file using [utils/dereference.py](https://github.com/vanallenlab/moalmanac-db/tree/main/utils#dereferencepy). The genomic knowledge pilot separated datasources into referenced and dereferenced sources, and so we are following their recommendations for this. We can thus have each element of the specification in its own referenced json file and these contents can be mirrored into the SQLite database that will be used by the API, or other database type chosen. There are two other additional benefits that we've noticed: testing the database content is much easier because each element can be independently evaluated and curation is _much_ faster by being able to reference the appropriate record within a data type, instead of typing or copying data. In short using a relational schema better follows [Don't repeat yourself (DRY)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) principles.
 
 # Our in progress interpretation of VA-Spec
-VA-Spec supports a wide array of [proposition types](https://va-ga4gh.readthedocs.io/en/latest/base-profiles/statement-profiles.html) but at the moment we are only utilizing Variant Therapeutic Response Study Proposition. Our current draft schema does _not_ follow va-spec and we are continuing to work to align our specification to their framework. Here, we'll go through each json file within [referenced/](../referenced/) and describe each attribute. Two common data types from [gks-core](https://github.com/ga4gh/gks-core) that are used by several data types are [extensions](https://va-ga4gh.readthedocs.io/en/latest/core-information-model/data-types.html#extension) and [mappings](https://va-ga4gh.readthedocs.io/en/latest/core-information-model/data-types.html#conceptmapping). 
-
-**Extensions** are a way to capture information that are not directly supported by their data model. They will always have the fields `name`, `value`, and `description`. For example, our model for [diseases](#diseasesjson) has an extension that specifies if the cancer type is categorized as a solid tumor or not. 
-```
-"extensions": [
-  {
-    "name": "solid_tumor",
-	"value": true,
-	"description": "Boolean value for if this tumor type is categorized as a solid tumor."
-  }
-]
-```
-
-**Mappings** are representations of a concept in _other_ systems and, in this case, means representations of a concept outside of moalmanac. They are made up of a [coding](https://va-ga4gh.readthedocs.io/en/latest/core-information-model/data-types.html#coding) and [relation](https://www.w3.org/TR/skos-reference/#vocab) statement. [GKS core](https://github.com/ga4gh/gks-core/blob/1.x/schema/gks-core/gks-core-source.yaml) currently allows `relation` to be populated with `broadMatch`, `closeMatch`, `exactMatch`, `narrowMatch`, `relatedMatch` and at the moment moalmanac only uses either `exactMatch` or `relatedMatch`. For example, therapies are mapped to the [NCI Enterprise Vocabulary Services](https://evsexplore.semantics.cancer.gov/evsexplore/):
-
-```
-"mappings": [  
-  {    
-   "coding": {  
-      "id": "ncit:C411",  
-      "code": "C411",  
-      "name": "Dacarbazine",  
-      "system": "https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/",  
-      "systemVersion": "25.01d"  
-    },  
-    "relation": "exactMatch"  
-  }  
-]
-```
-
-Specific extensions and mappings will be explained within their relevant data type. 
+VA-Spec supports a wide array of [proposition types](https://va-ga4gh.readthedocs.io/en/latest/base-profiles/statement-profiles.html) but at the moment we are only utilizing Variant Therapeutic Response Study Proposition. Our current draft schema does _not_ follow va-spec and we are continuing to work to align our specification to their framework. 
 
 More on this update to come!
 
