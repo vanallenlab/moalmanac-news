@@ -1,5 +1,5 @@
 ---
 layout: category
-category: Annual newsletter
-permalink: /category/annual
+category: Annual newsletters
+permalink: /category/annual-newsletters
 ---
