@@ -22,7 +22,7 @@ However, most of our effort this year has been spent on developing a new version
 
 As part of this update, we have recurated and rederived statements originating from US FDA approvals, and also curated [additional biomarker types](https://dev.moalmanac.org/biomarkers), including: homologous recombination status, internal tandem duplication, mismatch repair status, protein expression, and wild type relationships. As a result, statements originating from FDA approvals have increased from 285 entries to 674. In addition, we also curated regulatory approvals from several other agencies, including: the European Medicines Agency (EMA, 507 statements currently), the Republic of Ireland's Health Products Regulatory Authority (HPRA, 22) and Health Service Executive (HSE, 349), and Health Canada (HC, 331). From just these organizations, our database currently hosts 1883 genomic knowledge statements. 
 
-<img src="{{ '/assets/img/2025-12-29-db-2025.svg' | relative_url }}" alt="Molecular Oncology Almanac database size over 2025" class="figure"/>
+<img src="{{ '/assets/img/posts/2025-12-29-newsletter/db-size.svg' | relative_url }}" alt="Molecular Oncology Almanac database size over 2025" class="figure"/>
 
 We will migrate our non-regulatory approval evidence in the first couple of months in 2026. 
 
@@ -39,7 +39,7 @@ We rebuilt the web browser from scratch this year to support the updated databas
 
 All instances are backed by our new API, with endpoints viewable at [https://api.moalmanac.org](https://api.moalmanac.org).
 
-<img src="{{ '/assets/img/2025-12-29-web-overview.svg' | relative_url }}" alt="Molecular Oncology Almanac database size over 2025" class="figure"/>
+<img src="{{ '/assets/img/posts/2025-12-29-newsletter/web-overview.svg' | relative_url }}" alt="Molecular Oncology Almanac database size over 2025" class="figure"/>
 
 We also launched a dedicated news website: [news.moalmanac.org](https://news.moalmanac.org). Here, release notes for all software products within the MOAlmanac ecosystem are shared as a one-stop-shop, as well as Announcements. These are also posted on both [Bluesky](https://bsky.app/profile/moalmanac.org) and [LinkedIn](https://www.linkedin.com/company/molecular-oncology-almanac/), the latter of which we joined in the autumn.
 
