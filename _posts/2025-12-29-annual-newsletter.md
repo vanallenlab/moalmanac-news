@@ -13,7 +13,7 @@ Happy holidays from the Molecular Oncology Almanac team! Thank you all for the s
 - What's next for 2026?
 
 # Database updates
-We managed [9 database releases](https://news.moalmanac.org/category/database) throughout 2025, increasing the number of records within our underlying database from 1,001 to 1,009 entries. These primarily originate from US Food and Drug Administration (FDA) regulatory approvals. 
+We managed [9 database releases](https://news.moalmanac.org/category/database) throughout 2025, increasing the number of records within our underlying database from 1,001 to 1,015 entries. These primarily originate from US Food and Drug Administration (FDA) regulatory approvals. 
 
 However, most of our effort this year has been spent on developing a new version of MOAlmanac that [aligns with representation standards from Global Alliance for Genomics & Health (GA4GH)'s Genomic Knowledge Standards work stream](https://news.moalmanac.org/2025-03-06-gks-in-development.html). Doing so will increase interoperability of our database's content, making it easier for additional users to ingest and utilize moalmanac. Utilizing this schema has already provided several benefits, including:
 - Associating multiple biomarkers with a single database record, or genomic knowledge statement.
