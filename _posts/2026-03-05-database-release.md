@@ -22,3 +22,4 @@ Removed entries:
 
 ## New features
 - The Documents table was merged to align with VA-Spec.
+- URLs associated with documents have been moved to their own table in the referenced/ folder
