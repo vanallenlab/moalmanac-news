@@ -5,7 +5,6 @@ categories:
 date: 2026-03-05
 title: Database release
 github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2026-03-05
-published: false
 ---
 This release contains updates to the draft version of the database with FDA precision oncology approvals from February 2026. Specifically, indications and derived relationships were updated for Braftovi (encorafenib), Hernexeos (zongertinib), and Keytruda (pembrolizumab).
 
