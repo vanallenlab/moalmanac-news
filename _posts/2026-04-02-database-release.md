@@ -16,7 +16,7 @@ Added entries:
 
 Revised entries:
 
--
+- A description was previously not written for Statements associated with Indication ind:fda.kadcyla:0.
 
 Removed entries:
 
