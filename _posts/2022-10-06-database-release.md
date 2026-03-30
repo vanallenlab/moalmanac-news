@@ -7,7 +7,9 @@ title: Database release
 github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2022-10-06
 ---
 Added entries:
+
 - (FDA) _FGFR2_ rearrangements and sensitivity to futibatinib in intrahepatic cholangiocarcinoma.
 
 Revised entries:
+
 - (Clinical evidence) _SPOP_ variants and favorable prognosis in prostate adenocarcinoma was changed to sensitivity to abiraterone. Additionally, the doi url was revised to correctly point to the citation.
