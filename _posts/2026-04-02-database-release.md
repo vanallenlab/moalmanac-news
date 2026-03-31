@@ -17,6 +17,8 @@ Added entries:
 Revised entries:
 
 - A description was previously not written for Statements associated with Indication ind:fda.kadcyla:0.
+- The text for ind:fda.augtyro:1 was revised to resolve typos.
+- `ids` associated with treatment regimen "P0567" from the HSE were updated to use "P00567"
 
 Removed entries:
 
