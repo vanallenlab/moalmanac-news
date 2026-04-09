@@ -9,6 +9,7 @@ github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2021-06-0
 The following recent FDA approvals were added to the Molecular Oncology Almanac in this release -
 
 Added entries:
+
 - (FDA) EGFR exon 20 insertion somatic variants and sensitivity to amivantamab-vmjw in metastatic non-small cell lung cancer.
 - (FDA) FGFR2 fusions and sensitivity to infigratinib in cholangiocarcinoma.
 - (FDA) KRAS p.G12C and sensitivity to sotorasib in non-small cell lung cancer.

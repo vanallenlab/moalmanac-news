@@ -7,6 +7,7 @@ title: Database release
 github_url: https://github.com/vanallenlab/moalmanac-db/releases/tag/v.2025-02-07
 ---
 Added entries:
+
 - (FDA) [_ALK_ rearrangements and sensitivity to ensartinib for the treatment of adult patients with non-small cell lung cancer](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-ensartinib-alk-positive-locally-advanced-or-metastatic-non-small-cell-lung-cancer).
 - (FDA) [_BRAF_ p.V600E and sensitivity to encorafenib in combination with cetuximab and mFOLFOX6 for the treatment of patients with colorectal cancer](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-encorafenib-cetuximab-and-mfolfox6-metastatic-colorectal-cancer-braf).
 - (FDA) [_KRAS_ p.G12C and sensitivity to panitumumab in combination with sotorasib for the treatment of adult patients with metastatic colorectal cancer](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sotorasib-panitumumab-kras-g12c-mutated-colorectal-cancer).
