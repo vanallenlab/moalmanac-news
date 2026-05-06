@@ -13,6 +13,7 @@ This release contains updates to the draft version of the database. Concept mapp
 Added entries:
 
 - (EMA) ER+, HER2-negative, and _ERBB2_ activating variants and sensitivity to imlunestrant for patients with breast cancer.
+- (EMA, FDA) _VHL_ pathogenic variants and sensitivity to belzutifan for patients with renal cell carcinoma, central nervous system hemangioblastomas, or pancreatic neuroendocrine tumors.
 
 Revised entries:
 
