@@ -16,9 +16,6 @@ Added entries:
 
 Revised entries:
 
+- (FDA) _TSC1/2_ oncogenic variants and sensitivity to everolimus for patients with subependymal giant cell astrocytoma was previously incorrectly associated with a different cancer type. A coding for subependymal giant cell astrocytoma was introduced and these _TSC1/2_ relationships were updated.
 - The initial approval date for all EMA indications was updated to reflect the European Commission approval date, rather than the publication date of referenced documents.
 - All therapies now include mappings to RxNorm, SNOMED, and OMOP, with the exception of 34 which were only represented in either RxNorm or SNOMED but not both.
-
-## New features
-
-- Badges in the moalmanac-db README are now hard coded and do not rely on an API request to render.
