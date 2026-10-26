@@ -1,5 +1,7 @@
 # Molecular Oncology Almanac News
 
+**[news.moalmanac.org](news.moalmanac.org) now redirects to [docs.moalmanac.org/news](https://docs.moalmanac.org/news). This respository and redirect will be deprecated on December 31st, 2026.**
+
 This repository hosts the [News subdomain](https://news.moalmanac.org) for [Molecular Oncology Almanac](https://dev.moalmanac.org), built with [Jekyll](https://jekyllrb.com/) and the [Minima](https://github.com/jekyll/minima) theme.
 
 ## Development
